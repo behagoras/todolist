@@ -1,0 +1,15 @@
+.Task {
+  display: grid;
+  grid-template-columns: 20px 1fr 100px;
+  width: 100%;
+  padding:16px;
+  border-radius: 16px;
+  border: 1px solid #999;
+  margin: 8px 0;
+  align-items: center;
+  grid-gap: 16px;
+}
+
+.Task_deleteButton {
+  height: 100%;
+}

@@ -1,0 +1,11 @@
+.Form {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  width: 100%;
+  padding: 16px;
+  grid-gap: 8px;
+}
+
+.Form_add {
+  padding: 8px;
+}
