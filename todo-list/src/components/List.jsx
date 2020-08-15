@@ -1,9 +1,14 @@
-import React from 'react'
-import tasks from '../mocks/tasks'
+import React, { useEffect, useState } from 'react'
+// import tasks from '../mocks/tasks'
 import Element from './Task'
 
-export default function List() {
+export default function List({tasks, getTasks}) {
   return (
-    tasks.map((task)=><Element task={task}></Element>)
+    tasks.map((task)=>(
+      <Element
+        getTasks={getTasks}
+        task={task}
+      />
+    ))
   )
 }
